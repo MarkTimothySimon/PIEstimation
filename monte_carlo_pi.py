@@ -11,7 +11,7 @@ The ratio of darts landing inside the quarter circle to total darts thrown appro
 """)
 
 # Slider for number of points
-n_points = st.slider("Number of points", min_value=100, max_value=100000, value=1000, step=100)
+n_points = st.slider("Number of points", min_value=100, max_value=10000, value=1000, step=100)
 
 # Generate random points
 np.random.seed(42)  # For reproducibility
